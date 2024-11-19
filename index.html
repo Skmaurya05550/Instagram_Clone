@@ -1,1 +1,365 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Insta</title>
+    </head>
+    <body>
+        
+    </body>
+</html><html>
+ <head>
+  <title>
+   Instagram Clone
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-100">
+  <!-- Navbar -->
+  <nav class="bg-white border-b border-gray-300">
+   <div class="container mx-auto px-4 py-2 flex justify-between items-center">
+    <div class="text-2xl font-bold">
+     Instagram
+    </div>
+    <div class="flex space-x-4">
+     <a class="text-gray-700" href="#">
+      <i class="fas fa-home">
+      </i>
+     </a>
+     <a class="text-gray-700" href="#">
+      <i class="fas fa-search">
+      </i>
+     </a>
+     <a class="text-gray-700" href="#">
+      <i class="fas fa-plus-square">
+      </i>
+     </a>
+     <a class="text-gray-700" href="#">
+      <i class="fas fa-heart">
+      </i>
+     </a>
+     <a class="text-gray-700" href="#">
+      <i class="fas fa-user">
+      </i>
+     </a>
+    </div>
+   </div>
+  </nav>
+  <!-- Main Content -->
+  <div class="container mx-auto px-4 py-6 flex">
+   <!-- Left Sidebar -->
+   <div class="w-1/4 hidden lg:block">
+    <div class="bg-white p-4 rounded-lg shadow-md">
+     <div class="flex items-center space-x-4">
+      <img alt="Profile picture of the user" class="w-12 h-12 rounded-full" height="50" src="https://storage.googleapis.com/a1aa/image/weK50iwefde2kTxMmpBF8abesNUsRLo4oh4ZREBfha7NF5k8E.jpg" width="50"/>
+      <div>
+       <h2 class="font-bold">
+        username
+       </h2>
+       <p class="text-gray-600">
+        User's full name
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+   <!-- Feed -->
+   <div class="w-full lg:w-2/4">
+    <!-- Stories -->
+    <div class="bg-white p-4 rounded-lg shadow-md mb-6">
+     <div class="flex space-x-4 overflow-x-auto">
+      <div class="flex-shrink-0">
+       <img alt="Story thumbnail of user 1" class="w-16 h-16 rounded-full border-2 border-red-500" height="60" src="https://storage.googleapis.com/a1aa/image/A3CPeCyhDevcZUGdMAXjzE8pjdwhGXKiHjXXAMIVGf5VInknA.jpg" width="60"/>
+       <p class="text-xs text-center mt-2">
+        user1
+       </p>
+      </div>
+      <div class="flex-shrink-0">
+       <img alt="Story thumbnail of user 2" class="w-16 h-16 rounded-full border-2 border-red-500" height="60" src="https://storage.googleapis.com/a1aa/image/59SPmRZsUt6oEhhQQtdR4k1w5OUceTepT7eQ96fM7odiROJPB.jpg" width="60"/>
+       <p class="text-xs text-center mt-2">
+        user2
+       </p>
+      </div>
+      <div class="flex-shrink-0">
+       <img alt="Story thumbnail of user 3" class="w-16 h-16 rounded-full border-2 border-red-500" height="60" src="https://storage.googleapis.com/a1aa/image/XW0CsSP4Wp57MRCtEeYiod29fb0VbCdRoEtsgmlL7UXOkTyTA.jpg" width="60"/>
+       <p class="text-xs text-center mt-2">
+        user3
+       </p>
+      </div>
+      <div class="flex-shrink-0">
+       <img alt="Story thumbnail of user 4" class="w-16 h-16 rounded-full border-2 border-red-500" height="60" src="https://storage.googleapis.com/a1aa/image/zE3wdDNwhLaeYKpZjrjVEhfKzzJVSAp9BJC3XaP4F6PBkTyTA.jpg" width="60"/>
+       <p class="text-xs text-center mt-2">
+        user4
+       </p>
+      </div>
+      <div class="flex-shrink-0">
+       <img alt="Story thumbnail of user 5" class="w-16 h-16 rounded-full border-2 border-red-500" height="60" src="https://storage.googleapis.com/a1aa/image/mfWwB2QyiMWvcKf1gdeGtn57jcy5IRs3LXEZOHOu5nUNInknA.jpg" width="60"/>
+       <p class="text-xs text-center mt-2">
+        user5
+       </p>
+      </div>
+      <div class="flex-shrink-0">
+       <img alt="Story thumbnail of user 6" class="w-16 h-16 rounded-full border-2 border-red-500" height="60" src="https://storage.googleapis.com/a1aa/image/fb6mXjdDe5kNnEYMlVMs81iDGuhfT53eDW8UBT1LDWnBROJPB.jpg" width="60"/>
+       <p class="text-xs text-center mt-2">
+        user6
+       </p>
+      </div>
+      <div class="flex-shrink-0">
+       <img alt="Story thumbnail of user 7" class="w-16 h-16 rounded-full border-2 border-red-500" height="60" src="https://storage.googleapis.com/a1aa/image/Rks5STDId4bfI6WjhexT8Esehzw1J4LWHKt4xtQqfQvYROJPB.jpg" width="60"/>
+       <p class="text-xs text-center mt-2">
+        user7
+       </p>
+      </div>
+      <div class="flex-shrink-0">
+       <img alt="Story thumbnail of user 8" class="w-16 h-16 rounded-full border-2 border-red-500" height="60" src="https://storage.googleapis.com/a1aa/image/zNSVfJTOYa3HFK5YAIqjlciiWu36etB7M3XvNBeYqIWYInknA.jpg" width="60"/>
+       <p class="text-xs text-center mt-2">
+        user8
+       </p>
+      </div>
+     </div>
+    </div>
+    <!-- Posts -->
+    <div class="bg-white p-4 rounded-lg shadow-md mb-6">
+     <div class="flex items-center space-x-4 mb-4">
+      <img alt="Profile picture of user1" class="w-12 h-12 rounded-full" height="50" src="https://storage.googleapis.com/a1aa/image/LZaf1WqrsdSaYC5p04KQuejASyDK0kyrKHOYJpfgsiUfQOJPB.jpg" width="50"/>
+      <div>
+       <h2 class="font-bold">
+        user1
+       </h2>
+       <p class="text-gray-600">
+        Location
+       </p>
+      </div>
+     </div>
+     <img alt="Post image by user1" class="w-full rounded-lg mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/lhiQ8Xu985oBG9T7HZHc5o1ea0SGpemXFe90JfWUDRQfgcSeE.jpg" width="600"/>
+     <div class="flex justify-between items-center mb-4">
+      <div class="flex space-x-4">
+       <a class="text-gray-700" href="#">
+        <i class="fas fa-heart">
+        </i>
+       </a>
+       <a class="text-gray-700" href="#">
+        <i class="fas fa-comment">
+        </i>
+       </a>
+       <a class="text-gray-700" href="#">
+        <i class="fas fa-paper-plane">
+        </i>
+       </a>
+      </div>
+      <a class="text-gray-700" href="#">
+       <i class="fas fa-bookmark">
+       </i>
+      </a>
+     </div>
+     <p class="font-bold">
+      100 likes
+     </p>
+     <p>
+      <span class="font-bold">
+       user1
+      </span>
+      Caption for the post...
+     </p>
+     <p class="text-gray-600 text-sm">
+      View all 10 comments
+     </p>
+     <p class="text-gray-600 text-sm">
+      2 hours ago
+     </p>
+    </div>
+    <div class="bg-white p-4 rounded-lg shadow-md mb-6">
+     <div class="flex items-center space-x-4 mb-4">
+      <img alt="Profile picture of user2" class="w-12 h-12 rounded-full" height="50" src="https://storage.googleapis.com/a1aa/image/Boy4kyhsHfwLLaSFAN097HshJyH5XWvlTLVsyjxpZcfXkTyTA.jpg" width="50"/>
+      <div>
+       <h2 class="font-bold">
+        user2
+       </h2>
+       <p class="text-gray-600">
+        Location
+       </p>
+      </div>
+     </div>
+     <img alt="Post image by user2" class="w-full rounded-lg mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/Twss4dqlvWKfMS020AhfWzJj84XeS67dqvX2ozGI5oQyInknA.jpg" width="600"/>
+     <div class="flex justify-between items-center mb-4">
+      <div class="flex space-x-4">
+       <a class="text-gray-700" href="#">
+        <i class="fas fa-heart">
+        </i>
+       </a>
+       <a class="text-gray-700" href="#">
+        <i class="fas fa-comment">
+        </i>
+       </a>
+       <a class="text-gray-700" href="#">
+        <i class="fas fa-paper-plane">
+        </i>
+       </a>
+      </div>
+      <a class="text-gray-700" href="#">
+       <i class="fas fa-bookmark">
+       </i>
+      </a>
+     </div>
+     <p class="font-bold">
+      200 likes
+     </p>
+     <p>
+      <span class="font-bold">
+       user2
+      </span>
+      Caption for the post...
+     </p>
+     <p class="text-gray-600 text-sm">
+      View all 20 comments
+     </p>
+     <p class="text-gray-600 text-sm">
+      3 hours ago
+     </p>
+    </div>
+    <div class="bg-white p-4 rounded-lg shadow-md mb-6">
+     <div class="flex items-center space-x-4 mb-4">
+      <img alt="Profile picture of user3" class="w-12 h-12 rounded-full" height="50" src="https://storage.googleapis.com/a1aa/image/SiLgvTPj69bUF9rtLk6BRck632Q4PVlJKob2cD63re4FyJ5JA.jpg" width="50"/>
+      <div>
+       <h2 class="font-bold">
+        user3
+       </h2>
+       <p class="text-gray-600">
+        Location
+       </p>
+      </div>
+     </div>
+     <img alt="Post image by user3" class="w-full rounded-lg mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/Gs1V4UHOuh6FONoyWoCpyCcBYBFDzhr3xyjcbQA58TJC5k8E.jpg" width="600"/>
+     <div class="flex justify-between items-center mb-4">
+      <div class="flex space-x-4">
+       <a class="text-gray-700" href="#">
+        <i class="fas fa-heart">
+        </i>
+       </a>
+       <a class="text-gray-700" href="#">
+        <i class="fas fa-comment">
+        </i>
+       </a>
+       <a class="text-gray-700" href="#">
+        <i class="fas fa-paper-plane">
+        </i>
+       </a>
+      </div>
+      <a class="text-gray-700" href="#">
+       <i class="fas fa-bookmark">
+       </i>
+      </a>
+     </div>
+     <p class="font-bold">
+      300 likes
+     </p>
+     <p>
+      <span class="font-bold">
+       user3
+      </span>
+      Caption for the post...
+     </p>
+     <p class="text-gray-600 text-sm">
+      View all 30 comments
+     </p>
+     <p class="text-gray-600 text-sm">
+      4 hours ago
+     </p>
+    </div>
+   </div>
+   <!-- Right Sidebar -->
+   <div class="w-1/4 hidden lg:block">
+    <div class="bg-white p-4 rounded-lg shadow-md mb-6">
+     <h2 class="font-bold text-gray-700 mb-4">
+      Suggestions For You
+     </h2>
+     <div class="flex items-center space-x-4 mb-4">
+      <img alt="Profile picture of suggested user1" class="w-12 h-12 rounded-full" height="50" src="https://storage.googleapis.com/a1aa/image/d9p2ktkVI2omD5ysh039xoEFMnVeoV4zfepF6TBEjEwFInknA.jpg" width="50"/>
+      <div>
+       <h2 class="font-bold">
+        suggested_user1
+       </h2>
+       <p class="text-gray-600">
+        Followed by user1
+       </p>
+      </div>
+      <button class="text-blue-500 font-bold">
+       Follow
+      </button>
+     </div>
+     <div class="flex items-center space-x-4 mb-4">
+      <img alt="Profile picture of suggested user2" class="w-12 h-12 rounded-full" height="50" src="https://storage.googleapis.com/a1aa/image/2I1kJkaYP5rRPJtAjhjbucZQ7Hm5eGx8lqjjjj4wnupNyJ5JA.jpg" width="50"/>
+      <div>
+       <h2 class="font-bold">
+        suggested_user2
+       </h2>
+       <p class="text-gray-600">
+        Followed by user2
+       </p>
+      </div>
+      <button class="text-blue-500 font-bold">
+       Follow
+      </button>
+     </div>
+     <div class="flex items-center space-x-4 mb-4">
+      <img alt="Profile picture of suggested user3" class="w-12 h-12 rounded-full" height="50" src="https://storage.googleapis.com/a1aa/image/2hgYYh3zENrgK179ZJTt9Or2XQBhTRaWUHEyb6iTLXvE5k8E.jpg" width="50"/>
+      <div>
+       <h2 class="font-bold">
+        suggested_user3
+       </h2>
+       <p class="text-gray-600">
+        Followed by user3
+       </p>
+      </div>
+      <button class="text-blue-500 font-bold">
+       Follow
+      </button>
+     </div>
+     <div class="flex items-center space-x-4 mb-4">
+      <img alt="Profile picture of suggested user4" class="w-12 h-12 rounded-full" height="50" src="https://storage.googleapis.com/a1aa/image/Ne1CTjwn7yxaHq5w3O6oyfLCvjHfOZhjQAKq1xss16WHInknA.jpg" width="50"/>
+      <div>
+       <h2 class="font-bold">
+        suggested_user4
+       </h2>
+       <p class="text-gray-600">
+        Followed by user4
+       </p>
+      </div>
+      <button class="text-blue-500 font-bold">
+       Follow
+      </button>
+     </div>
+     <div class="flex items-center space-x-4 mb-4">
+      <img alt="Profile picture of suggested user5" class="w-12 h-12 rounded-full" height="50" src="https://storage.googleapis.com/a1aa/image/qPtk5cQjta6iLRbQhFrOIP14Gb17Pc12Bw9cywg4ZgBB5k8E.jpg" width="50"/>
+      <div>
+       <h2 class="font-bold">
+        suggested_user5
+       </h2>
+       <p class="text-gray-600">
+        Followed by user5
+       </p>
+      </div>
+      <button class="text-blue-500 font-bold">
+       Follow
+      </button>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+         </html>
+
+
+
+
+
+
+
 
