@@ -19,6 +19,15 @@ This is a simple frontend clone of the Instagram platform built using HTML, Tail
 - **TailwindCSS**: For styling and responsiveness.
 - **Font Awesome**: For icons in the navbar and post actions.
 
----
 
-## Project Structure
+## How to Run
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/skmaurya05550/instagram-clone.git
+   cd instagram-clone
+
+
+
+
+   
