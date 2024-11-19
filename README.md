@@ -1,4 +1,6 @@
 # Instagram Clone
+![17320320647882071346277330823819](https://github.com/user-attachments/assets/3af00811-3a35-42fe-a575-a2b86b9d6179)
+
 
 This is a simple frontend clone of the Instagram platform built using HTML, TailwindCSS, and Font Awesome. It showcases key Instagram features like a navbar, user stories, posts feed, and a suggestions section for users to follow.
 
