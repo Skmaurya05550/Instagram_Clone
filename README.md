@@ -26,8 +26,4 @@ This is a simple frontend clone of the Instagram platform built using HTML, Tail
    ```bash
    git clone https://github.com/skmaurya05550/instagram-clone.git
    cd instagram-clone
-
-
-
-
    
