@@ -1,4 +1,5 @@
 # Instagram Clone
+![17320331080886474668000156387353](https://github.com/user-attachments/assets/00e6b5d0-235c-4544-93b1-9f037df4226e)
 
 
 
